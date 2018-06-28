@@ -55,14 +55,14 @@ NEngAlertViewController - "logo(backgroundColor: UIColor)" attribute can use dev
 
     // func - logo(backgroundColor: UIColor)
     // Ex:
-		    alertviewcontroller.logo(backgroundColor: .red)
+	    alertviewcontroller.logo(backgroundColor: .red)
 
 
 NEngAlertViewController - "logo(borderColor: UIColor)" attribute can use developer to change borderColor of logo in alert view controller
 
     // func - logo(borderColor: UIColor)
     // Ex:
-		    alertviewcontroller.logo(borderColor: .red)
+	    alertviewcontroller.logo(borderColor: .red)
             
 
 NEngAlertViewController - "logo(contentMode: UIViewContentMode)" attribute can use developer to change image content mode of logo in alert view controller
@@ -97,14 +97,14 @@ NEngAlertViewController - "cancelButton(font: UIFont)" attribute can use develop
 
     // func - cancelButton(font: UIFont)
     // Ex:
-            alertviewcontroller.cancelButton(font: UIFont (name: "HelveticaNeue", size: 20)!)
+		alertviewcontroller.cancelButton(font: UIFont (name: "HelveticaNeue", size: 20)!)
     
 
 NEngAlertViewController - "cancelButton(foregroundColor: UIColor)" attribute can use developer to change cancel button text color in alert view controller
 
     // func - cancelButton(foregroundColor: UIColor)
     // Ex:
-            alertviewcontroller.cancelButton(foregroundColor: .red)
+		alertviewcontroller.cancelButton(foregroundColor: .red)
 
 NEngAlertViewController - "doneButton(backgroundColor: UIColor)" attribute can use developer to change done button background color in alert view controller
 
