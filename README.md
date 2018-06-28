@@ -13,8 +13,9 @@ To use NEngAlertViewController in your project, please follow following steps
 1. Add (or Drag and drop to Your project in Xcode) NEngAlertViewController.swift files to your project 
 
 2. Add NEngAlertViewControllerDelegate to your ViewController class
-       Ex:
-       
+
+	Ex:
+      
           class ViewController: UIViewController, NEngAlertViewControllerDelegate
 
 3. Declare and initialize an NEngAlertViewController instance with "title", "message", "cancelButtonTitle", "doneButtonTitle"
@@ -25,10 +26,14 @@ To use NEngAlertViewController in your project, please follow following steps
 
 4. Assign NEngAlertViewControllerDelegate to instance
 
+	Ex:
+      
           alertviewcontroller.delegate = self
 
 5. Add NEngAlertViewControllerDelegate functions into your ViewController calss so you can catch button events of NEngAlertViewController
 
+	Ex:
+      
           func doneButtonDidTap(sender: UIButton, tag: NSInteger) {
           
                 print("\(tag) Done button did tap")
