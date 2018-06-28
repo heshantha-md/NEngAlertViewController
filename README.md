@@ -1,0 +1,2 @@
+# NEngAlertViewController
+NEngAlertViewController is a custom class that written to  draw / design an awesome Alert View Controller with simple and easy approach. Developer can implement Alert View Controller with simple few steps and customize it with plenty of attributes such as logo, border color, background color, font color etc. Class is based on Swift language and require UIKit framework for function the functionalities of the class.
